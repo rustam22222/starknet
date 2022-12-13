@@ -1,0 +1,41 @@
+2022-12-13 12:24:58.902 [info] Уровень ведения журнала: Info
+2022-12-13 12:24:58.903 [info] Проверка найденного Git в: "git"
+2022-12-13 12:24:58.903 [info] Используется Git "2.34.1" из "git"
+2022-12-13 12:24:58.903 [info] > git rev-parse --show-toplevel [7ms]
+2022-12-13 12:24:58.903 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2022-12-13 12:24:58.903 [info] Open repository: /home/rust503/starknet
+2022-12-13 12:24:58.903 [info] > git config --get commit.template [12ms]
+2022-12-13 12:24:58.903 [info] > git rev-parse --show-toplevel [32ms]
+2022-12-13 12:24:58.903 [warning] No remotes found in the git config file.
+2022-12-13 12:24:58.904 [info] > git rev-parse --show-toplevel [114ms]
+2022-12-13 12:24:58.905 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+2022-12-13 12:24:58.905 [info] > git remote --verbose [51ms]
+2022-12-13 12:24:58.948 [info] > git status -z -uall [22ms]
+2022-12-13 12:24:58.949 [info] > git rev-parse --show-toplevel [54ms]
+2022-12-13 12:24:58.969 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2022-12-13 12:24:59.000 [info] > git rev-parse --git-dir --git-common-dir [34ms]
+2022-12-13 12:24:59.004 [info] Open repository: /home/rust503/starknet/starknet
+2022-12-13 12:24:59.049 [info] > git config --get commit.template [53ms]
+2022-12-13 12:24:59.051 [info] > git config --get commit.template [10ms]
+2022-12-13 12:24:59.051 [info] > git rev-parse --show-toplevel [30ms]
+2022-12-13 12:24:59.089 [warning] No remotes found in the git config file.
+2022-12-13 12:24:59.128 [warning] No remotes found in the git config file.
+2022-12-13 12:24:59.141 [info] > git remote --verbose [52ms]
+2022-12-13 12:24:59.141 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [69ms]
+2022-12-13 12:24:59.177 [info] > git status -z -uall [18ms]
+2022-12-13 12:24:59.178 [info] > git remote --verbose [50ms]
+2022-12-13 12:24:59.179 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [68ms]
+2022-12-13 12:24:59.216 [info] > git status -z -uall [21ms]
+2022-12-13 12:24:59.217 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [42ms]
+2022-12-13 12:24:59.221 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2022-12-13 12:24:59.248 [info] > git config --get commit.template [6ms]
+2022-12-13 12:24:59.284 [warning] No remotes found in the git config file.
+2022-12-13 12:24:59.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2022-12-13 12:24:59.287 [info] > git remote --verbose [4ms]
+2022-12-13 12:24:59.329 [info] > git status -z -uall [24ms]
+2022-12-13 12:24:59.330 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2022-12-13 12:24:59.586 [info] > git check-ignore -v -z --stdin [21ms]
+2022-12-13 12:24:59.589 [info] > git check-ignore -v -z --stdin [4ms]
+2022-12-13 12:25:29.568 [info] > git show --textconv :build/main_abi.json [23ms]
+2022-12-13 12:25:29.572 [info] > git ls-files --stage -- /home/rust503/starknet/build/main_abi.json [6ms]
+2022-12-13 12:25:29.975 [info] > git check-ignore -v -z --stdin [5ms]
